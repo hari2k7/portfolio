@@ -1,0 +1,8 @@
+.social-link {
+    color: white;
+    transition: 0.3s ease;
+  }
+
+  .social-link:hover {
+    transform: scale(1.2);
+  }
