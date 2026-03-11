@@ -3,6 +3,17 @@
     transition: 0.3s ease;
   }
 
-  .social-link:hover {
-    transform: scale(1.2);
+.social-link:hover {
+  transform: scale(1.2);
   }
+
+.ch{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.ch:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
