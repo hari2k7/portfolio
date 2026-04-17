@@ -674,6 +674,7 @@ body {
   display: flex;
   gap: 6px;
   margin-bottom: 10px;
+  flex-wrap: wrap;
 }
 
 .tag {
@@ -729,6 +730,12 @@ body {
   padding: 4px 12px;
   font-size: 10px;
   font-weight: 700;
+}
+
+.status-inprogress{
+  background-color:hsl(48, 96%, 8%) !important;  
+  color: #FACC15 !important; 
+  border: 1px solid #FACC15 !important;
 }
 
 .bi{
